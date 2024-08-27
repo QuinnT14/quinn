@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVlTADNFBCJ0_g67ZbqR7TeQrj1JR6mke3nQ&s') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Arial', sans-serif;
+}
+
+.clock {
+    background: rgba(255, 255, 255, 0);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 2em;
+    color: #33333331;
+}
+
+#time {
+    font-size: 4em;
+    font-weight: bold;
+}
